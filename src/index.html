@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>Pomodoro</h1>
+        <div class="container">
+            <div class="relojos">
+                <div id="focus" class="focus">
+                    <input type="number" placeholder="Set Focus time">
+                    <div class="time">
+                        <h3 id="w_minutos" class="focus--counter counter">00</h3>
+                        <h3 class="focus--counter counter">:</h3>
+                        <h3 id="w_segundos" class="focus--counter counter">10</h3>
+                    </div>
+                </div>
+                <div id="break" class="break">
+                    <input type="number" placeholder="Set Interval">
+                    <div class="time">
+                        <h3 id="b_minutos" class="focus--counter counter">05</h3>
+                        <h3 class="focus--counter counter">:</h3>
+                        <h3 id="b_segundos" class="focus--counter counter">00</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="botoes">
+                <button id="start">Start</button>
+                <button id="reset">Reset</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+    
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
